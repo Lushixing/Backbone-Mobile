@@ -1,0 +1,59 @@
+html{
+	font-size: 20px;
+}
+.layer {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #000;
+	display: none;
+}
+.layer .navbar {
+	height: 2.5rem;
+	background: #000;
+	color: white;
+}
+.layer .navbar.hide{
+	display: none;
+}
+.layer .navbar .back {
+	float: left;
+	position: relative;
+	left:  2px;
+    top: 13px;
+}
+.layer .navbar .arrow {
+	position: absolute;
+	border-right: .7rem solid white;
+	border-left: .7rem solid transparent;
+	border-top: .6rem solid transparent;
+	border-bottom: .6rem solid transparent;
+}
+.layer .navbar .arrow.green {
+	left: 4px;
+	border-right: .7rem solid #000;
+}
+
+.layer .navbar h1 {
+	text-align: center;
+	line-height: 2.5rem;
+	text-indent: 20px;
+	font-size: .8rem;
+}
+
+/* 图片容器样式 */
+.layer .img_container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+}
+.layer .img_container img {
+	max-width: 100%;
+	max-height: 100%;
+	vertical-align: middle;
+}

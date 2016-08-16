@@ -1,0 +1,131 @@
+html{
+	font-size: 20px;
+}
+body{
+	font-family: '微软雅黑';
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+.clearfix:after {
+	display: block;
+	content:  '';
+	clear: both;
+}
+.list .navbar {
+	height: 2.5rem;
+	background: #3D98FF;
+	color: white;
+}
+.list .navbar .back {
+	float: left;
+	position: relative;
+	left:  2px;
+    top: 13px;
+}
+.list .navbar .arrow {
+	position: absolute;
+	border-right: .7rem solid white;
+	border-left: .7rem solid transparent;
+	border-top: .6rem solid transparent;
+	border-bottom: .6rem solid transparent;
+}
+.list .navbar .arrow.green {
+	left: 4px;
+	border-right: .7rem solid #3D98FF;
+}
+.list .navbar .login {
+	float: right;
+	line-height: 2.5rem;
+	margin-right: 1rem;
+	font-size: .8rem;
+}
+.list .navbar h1 {
+	text-align: center;
+	line-height: 2.5rem;
+	text-indent: 20px;
+	font-size: 1.1rem;
+	font-weight: normal;
+}
+
+/*搜索区域样式*/
+.list .search {
+	padding: 10px;
+	display: -webkit-box;
+}
+.list .search input {
+	display: block;
+	-webkit-box-flex: 1;
+	border: 1px solid #3D98FF;
+	padding-left: 10px;
+	height:2rem;
+	font-size: 0.7rem;
+	outline: none;
+	box-sizing: border-box;
+}
+.list .search span {
+	display: inline-block;
+	width: 4rem;
+	height: 2rem;
+	text-align: center;
+	background: #3D98FF;
+	color: white;
+	line-height: 2rem;
+	font-size: .8rem;
+}
+/*导航部分*/
+.list .nav_ul{
+	overflow: hidden;
+}
+.list .nav{
+	width:1000px;
+}
+.list .nav li {
+	float: left;
+	list-style: none;
+	width: 60px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 40px;
+	color: #666;
+	box-sizing: border-box;
+}
+.list .nav li.cur{
+	color:#3D98FF;
+	border-bottom: 1px solid #3D98FF;
+	font-weight: 700;
+}
+
+
+/*图片列表样式*/
+.list .image-list {
+	display: -webkit-box;
+}
+.list .left-list {
+	-webkit-box-flex: 1;
+	padding: 6px 3px 6px 6px;
+}
+.list .right-list {
+	-webkit-box-flex: 1;
+	padding: 6px 6px 6px 3px;
+}
+.list .image-list img {
+	margin-bottom: 6px;
+	display: block;
+}
+.list .go_top{
+	position: fixed;
+	bottom: 2rem;
+	right: 10px;
+	width:1.5rem;
+	height:1.5rem;
+	padding: .5rem;
+	background: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	line-height: .8rem;
+	border-radius: 200px;
+	font-size: .6rem;
+	color: #fff;
+	display: none;
+}
